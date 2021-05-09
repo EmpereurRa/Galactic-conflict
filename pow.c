@@ -8,7 +8,7 @@
 #include<allegro5/allegro_acodec.h>
 
 /*to do:
- 1. add sound effects;
+ 1. add more sound effects;
  2. add a music menu where when you're hovering over an option it glows and you can obviosly click the options
  3. add a way to be defeated;
  4. make (school) shooting look better and make it possible to have more projectiles.

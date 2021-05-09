@@ -1,24 +1,3 @@
-this is mainly planning for adding enemies
-
-they come down every second by x blocks (I decide how many by looking) 
-and we have to shoot 'em as new ones appear on top oh and if our shots 
-are in the same place as them they die instantly, and they move faster over    
-time (say it starts at 2 blocks/second and gets harder by 0.1 every second)
-also we need to make it sense when there is no enemies at the top for more to spawn, which means we will need an "enemies" array and we use it like
-
-if (yenemypos[n-5]>100) 
-    // stuff to spawn a new thing xenemy[pos]
-
-also this means we somehow need to make sure this can support up to 20 enemies 
-or more going down simultaneously at least
-
-in the tutorial there is only 1             
-
-also we need a score function so each time a shot hits we get 1 extra point
-
-we also need a "winning screen"
-(when the yenemypos and maybe an xenemypos one too reach like 1000? lol 
-leaving some space for movement with an xenemypos would be cool 
-and still having to check when shot for the x and y line.)
-
-we should also add a score and defeat way if they like get too far down and you lose
+add a music menu in which buttons glow if the mouse is over an option and you can click;
+add sound effects;
+add a way to be defeated.

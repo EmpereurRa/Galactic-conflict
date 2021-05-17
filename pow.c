@@ -173,8 +173,8 @@ int main(){
 				break;
 			case ALLEGRO_EVENT_MOUSE_BUTTON_DOWN:
 				if(step==4){
-					printf("x: %d, y: %d\n", x, y);
-					printf("dx: %f, dy: %f\n", dx, dy);
+					//printf("x: %d, y: %d\n", x, y);
+					//printf("dx: %f, dy: %f\n", dx, dy);
 					if(y<101){
 						al_stop_samples();
 						al_play_sample(song1, 0.3, 0.0, 1.0, ALLEGRO_PLAYMODE_LOOP, NULL);
@@ -419,8 +419,8 @@ int main(){
 				break;
 			case ALLEGRO_EVENT_MOUSE_BUTTON_DOWN:
 				if(music==1){
-					printf("x: %d, y: %d\n", x, y);
-					printf("dx: %f, dy: %f\n", dx, dy);
+					//printf("x: %d, y: %d\n", x, y);
+					//printf("dx: %f, dy: %f\n", dx, dy);
 					if(y<101){
 						al_stop_samples();
 						al_play_sample(song1, 0.3, 0.0, 1.0, ALLEGRO_PLAYMODE_LOOP, NULL);

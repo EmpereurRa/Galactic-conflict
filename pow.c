@@ -593,6 +593,10 @@ int main(){
 	al_destroy_timer(timer);
 	al_destroy_sample(plosion);
 	al_destroy_sample(song1);
+	al_destroy_sample(song2);
+	al_destroy_sample(song3);
+	al_destroy_sample(song4);
+	al_destroy_sample(song4_5);
 	al_uninstall_audio();
 	al_destroy_event_queue(queue);
 	al_destroy_bitmap(shot);
